@@ -7,10 +7,11 @@ public final class CommandChokerSubscriber implements IMessageSendSubscriber {
     @Override
     public boolean onSend(String command, String wholeMessage) {
         if (command.length() > 1 && command.startsWith("7")) {
-            ChatMessageUtil.sendMessage("§cRecognized choked command!");
-            ChatMessageUtil.sendMessage("§7[SEND MESSAGE ANYWAY]",
-                    String.format("§7Send message ('%s')", wholeMessage),
-                    String.format(SendAnywaySubscriber.COMMAND_KEY + " %s", wholeMessage));
+            SendAnywaySubscriber.redefineCommandTriggerSuffix();
+            ChatMessageUtil.sendMessage("§cRecognized §cchoked §ccommand!");
+            ChatMessageUtil.sendMessage("§7[SEND §7MESSAGE §7ANYWAY]",
+                    String.format("§7Send §7message §7('%s')", wholeMessage),
+                    String.format(SendAnywaySubscriber.getCommandTriggerSuffix() + " %s", wholeMessage));
             return true;
         }
         return false;
