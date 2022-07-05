@@ -1,21 +1,21 @@
-package de.t0mse.labymod.addon;
+package de.t0mse.labymod.addon.anticommandchoker;
 
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
-import de.t0mse.labymod.addon.listener.MessageSendListener;
-import de.t0mse.labymod.addon.listener.subscriber.CommandChokerSubscriber;
-import de.t0mse.labymod.addon.listener.subscriber.SendAnywaySubscriber;
+import de.t0mse.labymod.addon.anticommandchoker.listener.MessageSendListener;
+import de.t0mse.labymod.addon.anticommandchoker.listener.subscriber.CommandChokerSubscriber;
+import de.t0mse.labymod.addon.anticommandchoker.listener.subscriber.SendAnywaySubscriber;
 import net.labymod.api.LabyModAddon;
 import net.labymod.settings.elements.SettingsElement;
 
 import java.util.List;
 import java.util.concurrent.Executors;
 
-public class AntiCommandChocker extends LabyModAddon {
-    private static AntiCommandChocker instance;
+public class AntiCommandChoker extends LabyModAddon {
+    private static AntiCommandChoker instance;
     private ListeningExecutorService asyncListeningExecutor;
 
-    public static AntiCommandChocker getInstance() {
+    public static AntiCommandChoker getInstance() {
         return instance;
     }
 

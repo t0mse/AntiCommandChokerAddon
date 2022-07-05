@@ -1,7 +1,7 @@
-package de.t0mse.labymod.addon.listener;
+package de.t0mse.labymod.addon.anticommandchoker.listener;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import de.t0mse.labymod.addon.AntiCommandChocker;
+import de.t0mse.labymod.addon.anticommandchoker.AntiCommandChoker;
 import net.labymod.api.events.MessageSendEvent;
 
 import java.util.LinkedList;
@@ -48,7 +48,7 @@ public final class MessageSendListener implements MessageSendEvent {
         }
         final String command = s.split(" ")[0].trim();
         for (final IMessageSendSubscriber messageSendSubscriber : messageSendSubscribers) {
-            final ListenableFuture<Boolean> subscriberFuture = AntiCommandChocker.getInstance()
+            final ListenableFuture<Boolean> subscriberFuture = AntiCommandChoker.getInstance()
                     .getAsyncListeningExecutor().submit(new Callable<Boolean>() {
                         @Override
                         public Boolean call() {

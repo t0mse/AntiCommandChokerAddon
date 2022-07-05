@@ -1,4 +1,4 @@
-package de.t0mse.labymod.addon.util;
+package de.t0mse.labymod.addon.anticommandchoker.util;
 
 import net.labymod.core.LabyModCore;
 import net.minecraft.event.ClickEvent;

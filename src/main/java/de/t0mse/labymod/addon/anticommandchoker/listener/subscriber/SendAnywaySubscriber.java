@@ -1,7 +1,7 @@
-package de.t0mse.labymod.addon.listener.subscriber;
+package de.t0mse.labymod.addon.anticommandchoker.listener.subscriber;
 
-import de.t0mse.labymod.addon.listener.IMessageSendSubscriber;
-import de.t0mse.labymod.addon.util.ChatMessageUtil;
+import de.t0mse.labymod.addon.anticommandchoker.listener.IMessageSendSubscriber;
+import de.t0mse.labymod.addon.anticommandchoker.util.ChatMessageUtil;
 import net.labymod.core.LabyModCore;
 
 public final class SendAnywaySubscriber implements IMessageSendSubscriber {

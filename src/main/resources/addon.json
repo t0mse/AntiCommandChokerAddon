@@ -1,7 +1,7 @@
 {
   "uuid": "%uuid%",
   "name": "Anti Command Choker",
-  "mainClass": "de.t0mse.labymod.addon.AntiCommandChocker",
+  "mainClass": "de.t0mse.labymod.addon.anticommandchoker.AntiCommandChoker",
   "description": "This will prevent you from choking commands by typing \"7\" instead of a slash as command trigger",
   "version": 1,
   "author": "t0mse",

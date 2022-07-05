@@ -1,4 +1,4 @@
-package de.t0mse.labymod.addon.listener;
+package de.t0mse.labymod.addon.anticommandchoker.listener;
 
 public interface IMessageSendSubscriber {
     /**
