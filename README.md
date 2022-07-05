@@ -8,7 +8,7 @@ Especially with private messages, it is annoying when all other players see that
 you wanted to tell your friend that you where the one who stole the cookie jar. (⌐■_■)
 
 Since I've been programming for a long time, especially with Java, I put 1 and 1<br>
-together and developed this [LabyMod](https://labymod.net) addon to keep your secrets as well. (¬‿¬)
+together and developed this [LabyMod](https://labymod.net) addon to let you keep your secrets as well. (¬‿¬)
 
 ## Installation
 Here you can see how to install the addon step by step:
