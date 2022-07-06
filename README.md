@@ -12,7 +12,7 @@ together and developed this [LabyMod](https://labymod.net) addon to let you keep
 
 ## Installation
 Here you can see how to install the addon step by step:
-- Download the addon `.jar` file [here](https://github.com/t0mse)
+- Download the addon `.jar` file [here](https://github.com/t0mse/AntiCommandChokerAddon/releases/download/1.0.0/AntiCommandChoker-1.0.jar)
 - Move the `.jar` file in the `.minecraft/LabyMod/addons-1.8` folder
 - Start/restart your game with LabyMod
 
