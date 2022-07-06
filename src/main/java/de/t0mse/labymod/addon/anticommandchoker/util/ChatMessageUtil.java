@@ -21,7 +21,7 @@ public final class ChatMessageUtil {
      * Displays message with hover and command for client
      *
      * @param message as displayed text
-     * @param hover as hover for displayed text
+     * @param hover   as hover for displayed text
      * @param command as command to run on click
      */
     public static void sendMessage(String message, String hover, String command) {
@@ -34,7 +34,7 @@ public final class ChatMessageUtil {
      * Creates and returns chat component object out of parameters
      *
      * @param message as displayed text
-     * @param hover as hover for displayed text
+     * @param hover   as hover for displayed text
      * @param command as command to run on click
      * @return IChatComponent object
      */
